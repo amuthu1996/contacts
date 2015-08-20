@@ -1,0 +1,79 @@
+.koreCircle{
+	display:inline;
+	float:left;
+	width:100px;
+	height:100px;
+	background:rgb(96,100,200);
+	border-radius: 50%;
+	margin:auto;
+	margin-top:35px;
+	margin-left:10px;
+	margin-bottom:30px;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2), -2px 2px 2px rgba(0,0,0,0.2);
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	transition:all 0.5s;
+	opacity:0;
+}
+.getBigger{
+	-moz-animation:bigger 0.1s linear forwards;
+}
+@-moz-keyframes bigger{
+	33%{transform:scale(0.5); opacity:0;}
+	66%{transform:scale(0.75);opacity:0;}
+	100%{transform:scale(1); opacity:1;}
+}
+.koreCircle:hover{
+	background:#FFF !important;
+	width:150px;
+	height:150px;
+	margin-top:10px;
+	
+}
+
+.con{
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	padding-right: 60px;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	transition:all 0.5s;
+
+}
+
+.f1, .f4, .f7{
+	padding-left: 100px;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	transition:all 0.5s;
+
+}
+
+.cont{
+	display: block;
+	padding-left: 200px;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	transition:all 0.5s;
+}
+
+.conn{
+	display: block;
+}
+
+
+.i1, .i3, .i5, .i7, .i9{
+	margin-top: 100px;
+}
+
+.i1:hover,.i3:hover,.i5:hover,.i7:hover,.i9:hover{
+	margin-top: 75px;
+
+}
+
+.mark{
+	width: 600px;
+	overflow: 
+}
