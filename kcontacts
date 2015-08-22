@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="kk.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script></script>
+	</head>
+	<body>
+		<div class='cont container-fluid'>
+			<div class = "conn c1 col-sm-12">
+				<div style="opacity: 1;" class="koreCircle  koreAnim i1" id="creativity"></div>
+				<div style="opacity: 1;" class="koreCircle  koreAnim i2" id="creativity"></div>
+				<div style="opacity: 1;" class="koreCircle  koreAnim i3" id="creativity"></div>
+			</div>
+			<div class = "conn c2 col-sm-12">
+				<div style="opacity: 1;" class="koreCircle  koreAnim i4" id="creativity"></div>
+				<div style="opacity: 1;" class="koreCircle  koreAnim i5" id="creativity"></div>
+			</div>
+			<div class = "conn c3 col-sm-12">
+				<div style="opacity: 1;" class="koreCircle  koreAnim i6" id="creativity"></div>
+				<div style="opacity: 1;" class="koreCircle  koreAnim i7" id="creativity"></div>
+				<div style="opacity: 1;" class="koreCircle  koreAnim i8" id="creativity"></div>
+			</div>
+		</div>
+	</body>
+</html

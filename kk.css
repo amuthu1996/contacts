@@ -6,15 +6,17 @@
 	background:rgb(96,100,200);
 	border-radius: 50%;
 	margin:auto;
-	margin-top:35px;
+	margin-top:25px;
 	margin-left:10px;
 	margin-bottom:30px;
 	cursor: pointer;
+	text-align: center;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.2), -2px 2px 2px rgba(0,0,0,0.2);
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	transition:all 0.5s;
 	opacity:0;
+	padding-top: 40px;
 }
 .getBigger{
 	-moz-animation:bigger 0.1s linear forwards;
@@ -28,18 +30,14 @@
 	background:#FFF !important;
 	width:150px;
 	height:150px;
-	margin-top:10px;
+	margin-top:0px;
 	
 }
 
 .con{
-	height: 150px;
-	width: 150px;
-	display: inline-block;
-	padding-right: 60px;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	transition:all 0.5s;
+	position: obsolute;
+	left: 500px;
+	top: 200px;
 
 }
 
@@ -52,28 +50,46 @@
 }
 
 .cont{
-	display: block;
-	padding-left: 200px;
+	width: 100%;
+	
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	transition:all 0.5s;
 }
 
 .conn{
-	display: block;
+	margin: 0 auto;
 }
 
 
-.i1, .i3, .i5, .i7, .i9{
-	margin-top: 100px;
-}
 
-.i1:hover,.i3:hover,.i5:hover,.i7:hover,.i9:hover{
-	margin-top: 75px;
 
 }
 
 .mark{
 	width: 600px;
 	overflow: 
+}
+
+.c1, .c2, .c3{
+	display: inline-block;
+	padding-left: 30px;
+	padding-top: 10px;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	transition:all 0.5s;
+	
+
+}
+
+
+.i1, .i2, .i3{
+	margin-top:50px;
+	margin-left:10px;
+	margin-bottom:30px;
+
+}
+
+.i1, .i2, .i3{
+	margin-top: 25px;
 }
